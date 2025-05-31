@@ -1,15 +1,10 @@
 import Image from "next/image";
 import Head from 'next/head'
 import Header from '../components/Header'
-import Footer from '../components/Footer'
 import Hero from '../components/Hero'
 import About from '../components/About'
-import Accreditations from '../components/Accreditations'
-import AreasOfExpertise from '../components/AreasOfExpertise'
-import Testimonials from '../components/Testimonials'
-import FeaturedServices from '../components/FeaturedServices'
-import Rates from '../components/Rates'
-import Contact from '../components/Contact'
+import Working from "@/components/Working";
+
 export default function Home() {
   return (
    <>
@@ -24,14 +19,8 @@ export default function Home() {
       <main>
         <Hero />
         <About />
-        <Accreditations />
-        <AreasOfExpertise />
-        <Testimonials />
-        <FeaturedServices />
-        <Rates />
-        <Contact />
+        <Working/>
       </main>
-      <Footer />
     </>
   );
 }
